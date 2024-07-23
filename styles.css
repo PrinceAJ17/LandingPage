@@ -95,6 +95,7 @@ img{
 }
 
 /* TAB2 STYLE */
+
 .tab2{
     display: flex;
     flex-direction: column;
@@ -139,5 +140,30 @@ img{
 .box-text{
     width: 180px;
     text-align: center;
+}
+
+/* TAB3 STYLE */
+
+.tab3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 200px 500px;
+}
+
+.quote{
+    display: flex;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    display: flex;
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
