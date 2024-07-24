@@ -15,6 +15,12 @@ a {
     color: #e5e7eb;
 }
 
+h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
 /* HEADER STYLE */
 
 .header{
@@ -69,12 +75,12 @@ a {
     margin-bottom: 10px;
 }
 
-button {
+.submit {
     cursor: pointer;
-    padding: 8px 16px;
+    padding: 8px 30px;
     border-radius: 8px;
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882f6;
+    border: 3px solid #3882f6;
     color: white;
 }
 
@@ -167,3 +173,39 @@ img{
     color: #1f2937;
 }
 
+/* TAB4 STYLE */
+
+.tab4{
+    display: flex;
+    justify-content: center;
+}
+
+.ctafull{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 48px 100px;
+    margin: 100px;
+}
+
+.m3{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.s3{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.submit2{
+    cursor: pointer;
+    padding: 8px 30px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: 3px solid #f9faf8;
+    color: white;
+}
